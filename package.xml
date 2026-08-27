@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>humanoid_driver_interface</name>
+  <version>0.1.0</version>
+  <description>SI-unit plugin contract for humanoid robot joint drivers.</description>
+  <maintainer email="czy33114@gmail.com">czy</maintainer>
+  <license>Proprietary</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>pluginlib</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
